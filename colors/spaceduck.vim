@@ -623,6 +623,34 @@ hi link CocExplorerHelpLine           SpaceduckMagenta
 
 " }}}
 
+" Vim9 Lsp
+hi! link LspDiagInlineError         SpaceduckRed
+hi! link LspDiagVirtualTextError    SpaceduckRed
+hi! link LspDiagSignErrorText       SpaceduckRed
+hi! link LspDiagInlineWarning       SpaceduckOrange
+hi! link LspDiagVirtualTextWarning  SpaceduckOrange
+hi! link LspDiagSignWarningText     SpaceduckOrange
+hi! link LspDiagInlineInfo          SpaceduckYellow
+hi! link LspDiagVirtualTextInfo     SpaceduckYellow
+hi! link LspDiagSignInfoText        SpaceduckYellow
+hi! link LspDiagInlineHint          SpaceduckYellow
+hi! link LspDiagVirtualTextHint     SpaceduckYellow
+hi! link LspDiagSignHintText        SpaceduckYellow
+
+hi! link LspSemanticClass           SpaceDuckCyan
+hi! link LspSemanticEnumMember      SpaceduckForeground
+hi! link LspSemanticFunction        SpaceDuckGreen
+hi! link LspSemanticMacro           SpaceDuckPurple
+hi! link LspSemanticMethod          SpaceDuckGreen
+hi! link LspSemanticNamespace       SpaceDuckYellow
+hi! link LspSemanticNumber          SpaceDuckYellow
+hi! link LspSemanticOperator        SpaceduckGreen
+hi! link LspSemanticParameter       SpaceduckForeground
+hi! link LspSemanticProperty        SpaceduckForeground
+hi! link LspSemanticStruct          SpaceDuckCyan
+hi! link LspSemanticType            SpaceDuckMagenta
+hi! link LspSemanticVariable        SpaceduckForeground
+
 " TreeSitter:
 
 " TODO: UNTESTED Treesitter
