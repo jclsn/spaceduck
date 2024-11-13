@@ -248,13 +248,13 @@ call s:hi('SpellLocal',       s:palette.green,       s:palette.none,       'unde
 call s:hi('SpellRare',        s:palette.yellow,      s:palette.none,       'underline')
 
 call s:hi('StatusLine',       s:palette.cursor,      s:palette.foreground, 'reverse'  )
-call s:hi('StatusLineNC',     s:palette.bg,          s:palette.grey,       'NONE'  )
+call s:hi('StatusLineNC',     s:palette.bg,          s:palette.cursor,     'NONE'     )
 call s:hi('StatusLineTermNC', s:palette.bg,          s:palette.darkpurple, 'reverse'  )
 call s:hi('TabLine',          s:palette.bg,          s:palette.grey                   )
 
 call s:hi('TabLineFill',      s:palette.grey,        s:palette.black                  )
 call s:hi('TabLineSel',       s:palette.lightgrey,   s:palette.background             )
-call s:hi('VertSplit',        s:palette.selection,   s:palette.none                   )
+call s:hi('VertSplit',        s:palette.cursor,      s:palette.cursor                 )
 call s:hi('Visual',           s:palette.none,        s:palette.selection              )
 call s:hi('WarningMsg',       s:palette.orange,      s:palette.background             )
 call s:hi('WildMenu',         s:palette.black,       s:palette.lightgrey              )
