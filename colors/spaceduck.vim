@@ -637,6 +637,20 @@ hi! link LspDiagInlineHint          SpaceduckYellow
 hi! link LspDiagVirtualTextHint     SpaceduckYellow
 hi! link LspDiagSignHintText        SpaceduckYellow
 
+hi! link LspSemanticClass           SpaceDuckMagenta
+hi! link LspSemanticEnumMember      NONE
+hi! link LspSemanticFunction        SpaceDuckGreen
+hi! link LspSemanticMacro           SpaceDuckPurple
+hi! link LspSemanticMethod          SpaceDuckGreen
+hi! link LspSemanticNamespace       SpaceDuckYellow
+hi! link LspSemanticNumber          SpaceDuckYellow
+hi! link LspSemanticOperator        NONE
+hi! link LspSemanticParameter       NONE
+hi! link LspSemanticProperty        NONE
+hi! link LspSemanticStruct          SpaceDuckCyan
+hi! link LspSemanticType            SpaceDuckMagenta
+hi! link LspSemanticVariable        NONE
+
 " TreeSitter:
 
 " TODO: UNTESTED Treesitter
